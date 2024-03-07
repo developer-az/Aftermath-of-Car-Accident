@@ -21,9 +21,9 @@ def main():
     print(f"The speed of the car at the time of the accident was approximately {speed_mph:.10f} mph.")
 
     if speed_mph > v_limit:
-        print("The driver was speeding.")
+        print("We CAN conclude that the driver was speeding.")
     else:
-        print("The driver was not speeding.")
+        print("We CAN NOT conclude that the driver was speeding.")
 
 if __name__ == "__main__":
     main()
